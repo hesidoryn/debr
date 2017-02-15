@@ -1,0 +1,14 @@
+{
+  "dependencies": [
+    "src/layouts/base",
+    "./style.less",
+
+    "src/tags/first-image",
+    "src/tags/main-text",
+    "src/tags/second-text",
+    "src/tags/second-image",
+    "src/tags/services",
+    "src/tags/map",
+    "src/tags/contacts"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": [
+    "./jquery_module/dist/jquery.js"
+  ]
+}

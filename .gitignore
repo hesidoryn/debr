@@ -1,0 +1,26 @@
+node_modules
+bower_components
+*.log
+*.iml
+*.pyc
+*.kate-swp
+/deploy/.profile
+.idea/*
+.DS_Store
+/build
+/target
+*.marko.js
+/.cache
+/static
+*.log
+*.retry
+
+
+# Files that are supposed to be generated automatically
+/src/layouts/base/config.js
+
+# Test file for quick sketches
+/test.js
+
+# ignore ssl certificates
+/deploy/ssl_certs

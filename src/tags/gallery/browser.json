@@ -1,0 +1,7 @@
+{
+  "dependencies" : [
+    "./style.less",
+    "./slick",
+    "./client.js"
+  ]
+}

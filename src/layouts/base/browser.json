@@ -1,0 +1,7 @@
+{
+    "dependencies": [
+        "./jquery",
+        "./grid",
+        "./style.less"
+    ]
+}

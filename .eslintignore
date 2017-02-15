@@ -1,0 +1,5 @@
+build/*
+*.marko.js
+trash/*
+temp/*
+*.min.js

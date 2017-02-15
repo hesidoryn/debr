@@ -1,0 +1,37 @@
+<lasso-page package-path="./browser.json"/>
+
+<layout-use("../../layouts/base/template.marko")>
+
+  <layout-put into="title">База отдыха "Дебаркадер"</layout-put>
+
+    <layout-put into="body">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <first-image />
+        </div>
+        <div class="first-xs last-md col-xs-10 col-xs-offset-1 col-sm-10 col-md-6 col-md-offset-0 col-lg-6">
+          <main-text />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-md-6 col-md-offset-0 col-lg-6">
+          <second-text />
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <second-image />
+        </div>
+      </div>
+      <div class="row">
+        <services />
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <contacts />
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-md-6 col-md-offset-0 col-lg-6">
+          <map />
+        </div>
+      </div>
+  </layout-put>
+
+</layout-use>
