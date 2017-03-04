@@ -1,7 +1,0 @@
-{
-  "dependencies": [
-    "./slick/slick/slick.js",
-    "./slick/slick/slick.css",
-    "./slick/slick/slick-theme.css"
-  ]
-}

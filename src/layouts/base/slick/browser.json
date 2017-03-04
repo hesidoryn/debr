@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "./slick_module/slick/slick.min.js",
+    "./slick_module/slick/slick.css",
+    "./slick_module/slick/slick-theme.css"
+  ]
+}
