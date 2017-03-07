@@ -1,0 +1,6 @@
+{
+  "dependencies": [
+    "./lightbox_module/dist/css/lightbox.min.css",
+    "./lightbox_module/dist/js/lightbox.min.js"
+  ]
+}

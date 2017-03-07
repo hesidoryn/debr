@@ -2,6 +2,7 @@
     "dependencies": [
         "./jquery",
         "./grid",
+        "./lightbox",
         "./style.less"
     ]
 }

@@ -9,27 +9,27 @@ $(function() {
         let right2left = (slideToNumber - currentActiveNumber) > 0 ? true : false;
 
         let slideTo = $(`.carousel #carousel-inner .item[data-slide=${slideToNumber}]`);
-        let slideToImg = $(`.carousel #carousel-inner .item[data-slide=${slideToNumber}] img`);
+        let slideToDiv = $(`.carousel #carousel-inner .item[data-slide=${slideToNumber}] div`);
         let currentActive = $('.carousel #carousel-inner .item.active');
-        let currentActiveImg = $('.carousel #carousel-inner .item.active img');
+        let currentActiveDiv = $('.carousel #carousel-inner .item.active div');
 
         if(right2left) {
-          currentActiveImg.animate({
+          currentActiveDiv.animate({
             right: '100%'
           }, 500);
           currentActive.removeClass('active');
-          slideToImg.css('right', '-100%');
-          slideToImg.animate({
+          slideToDiv.css('right', '-100%');
+          slideToDiv.animate({
             right: '0%'
           }, 500);
           slideTo.addClass('active');
         } else {
-          currentActiveImg.animate({
+          currentActiveDiv.animate({
             right: '-100%'
           }, 500);
           currentActive.removeClass('active');
-          slideToImg.css('right', '100%');
-          slideToImg.animate({
+          slideToDiv.css('right', '100%');
+          slideToDiv.animate({
             right: '0%'
           }, 500);
           slideTo.addClass('active');

@@ -35,6 +35,7 @@
     "lasso-less": "2.3.1",
     "lasso-marko": "2.1.0",
     "lasso-marko-extras": "1.1.0",
+    "lightbox2": "^2.9.0",
     "marko": "3.12.0",
     "slick-carousel": "^1.6.0",
     "yargs": "1.3.3"
